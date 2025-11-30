@@ -69,21 +69,22 @@ Phân tích nội dung thực sự của gói tin.
 
 ```bash
 pip install scapy
+```
 (Trên Windows, cần cài thêm Npcap ở chế độ "WinPcap compatible")
 
 2. Cách chạy
 Bước 1: Tạo dữ liệu giả lập (Tùy chọn) Nếu chưa có file PCAP thực tế, chạy script này để tạo file mẫu chứa đủ 8 loại tấn công:
 
-Bash
-
+```Bash
 python generate_pcap.py
+```
 Kết quả: Sinh ra file attack_sample.pcap.
 
 Bước 2: Chạy bộ phân tích
 
-Bash
-
+```Bash
 python pcap_analyzer.py
+```
 Hệ thống sẽ đọc file pcap và in báo cáo chi tiết ra màn hình.
 
 📂 Cấu trúc dự án
