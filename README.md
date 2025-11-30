@@ -89,12 +89,13 @@ Hệ thống sẽ đọc file pcap và in báo cáo chi tiết ra màn hình.
 
 📂 Cấu trúc dự án
 Plaintext
-
+```
 .
 ├── pcap_analyzer.py    # Core: Mã nguồn phân tích & phát hiện tấn công
 ├── generate_pcap.py    # Tool: Tạo file pcap mẫu với các kịch bản tấn công
 ├── attack_sample.pcap  # Data: File dữ liệu mẫu (được sinh ra từ tool)
 ├── .gitignore          # Config: Cấu hình bỏ qua file rác khi đẩy lên Git
 └── README.md           # Doc: Tài liệu hướng dẫn (File này)
+```
 ⚠️ Lưu ý
 Công cụ này được xây dựng cho mục đích giáo dục và nghiên cứu an ninh mạng. Vui lòng chỉ sử dụng trên các hệ thống mạng mà bạn có quyền kiểm soát hoặc được cấp phép.
